@@ -1,8 +1,8 @@
 <template>
 <div id="app">
-  <Tab1></Tab1>
+  <!-- <Tab1></Tab1> -->
   <Formulaire></Formulaire>
-  <Table></Table>
+  <!-- <Table></Table> -->
 </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-<el-table :data="tableData4" border style="width: 100%" max-height="250">
+<el-table :data="users" border style="width: 100%" max-height="250">
   <el-table-column fixed prop="date" label="Date" width="150">
   </el-table-column>
   <el-table-column prop="name" label="Name" width="120">
@@ -15,7 +15,7 @@
   <el-table-column fixed="right"  label="Operations" width="120">
     <template scope="scope">
         <el-button
-          @click.native.prevent="deleteRow(scope.$index, tableData4)"
+          @click.native.prevent="deleteRow(scope.$index, users)"
           type="text"
           size="small">
           Remove
